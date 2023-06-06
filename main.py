@@ -50,31 +50,16 @@ if (selected == "Dataset"):
     with keterangan:
         st.text("""
              Column:
-             - Battery power: Berapa Banyak Power Dari Baterai
-             - Blue: Apakah Batrey nya memiliki Bluetooth atau TIDAK
-             - Dual_Sim: Apakah Mendukung Dual SIM atau TIDAK
-             - fc: Ukuran Pixel Dari Kamera Depan
-             - four_g: Apakah Sudah support jaringan 4G atau TIDAK
-             - int_memory: Internal Memory berapa GB
-             - mobile_wt: Berat Handphone
-             - pc: Ukuran Pixel Dari Kamera Belakang/Primary
-             - px_height: Pixel Resolution Height
-             - px_width: Pixel Resolution Width
-             - ram: Ukuran RAM
-             - sc_h: Screen Height of mobile in cm
-             - sc_w: Screen Width of mobile in cm
-             - three_g: Apakah Jaringan nya support 3G
-             - touch_screen: Layarnya Bisa di sentuh Atau tidak
-             - wifi: Memiliki Jaringan WIFI atau Tidak
-             - Price range: label dari kisaran harga
+             - Kadar air : Kadar air mengacu pada jumlah atau persentase air yang terkandung dalam suatu zat atau lingkungan tertentu
+             - Tak larut : Tak larut adalah sifat suatu zat yang tidak dapat larut atau larut dengan sangat sedikit dalam pelarut tertentu pada suhu dan kondisi tertentu.
+             - Kalsium : Kalsium adalah unsur kimia dengan simbol Ca dan nomor atom 20. Ini adalah logam alkali tanah yang termasuk dalam kelompok 2 tabel periodik. 
+             - Magnesium : Magnesium adalah unsur kimia dengan simbol Mg dan nomor atom 12
+             - Sulfat : Sulfat adalah ion negatif (anion) yang terdiri dari satu atom sulfur dan empat atom oksigen
+             - NaCl(wb) : NaCl (wb) adalah singkatan dari "Natrium Klorida (basis berat)" atau "Sodium Chloride (wet basis)" dalam bahasa Inggris
+             - NaCl(db): NaCl (db) adalah singkatan dari "Natrium Klorida (dry basis)" atau "Sodium Chloride (dry basis)"
              
-             Index
-             Output Dari Dataset ini merupakan sebuah index yaitu : 0,1,2,3, 
-             dimana dari 4 index ini di kategorikan sebagai berikut
-             > 0 - Low Cost
-             > 1 - Medium Cost
-             > 2 - High Cost
-             > 3 - Very High Cost
+             Label
+             Output Dari Dataset ini yaitu K1 K2 K3 dan K4
            """)
 
 ########################################## Preprocessing #####################################################
